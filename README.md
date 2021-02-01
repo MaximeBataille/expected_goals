@@ -4,7 +4,7 @@ This Dash application makes it possible to determine the expected goal of a shot
 
 [Visit the app](https://expected-goals.herokuapp.com/)
 
-![ScreenShot](https://raw.github.com/MaximeBataille/expected_goals/main/image.png)
+![ScreenShot](image.png)
 
 ## How is it built ?
 
