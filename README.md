@@ -4,6 +4,8 @@ This Dash application makes it possible to determine the expected goal of a shot
 
 [Visit the app](https://expected-goals.herokuapp.com/)
 
+![ScreenShot](https://raw.github.com/MaximeBataille/expected_goals/main/image.png)
+
 ## How is it built ?
 
 Distance and angle of shot obviously have a very important impact. David Sumpter makes this clear on [Friends of Tracking](https://www.youtube.com/watch?v=310_eW0hUqQ).
