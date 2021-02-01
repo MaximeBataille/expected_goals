@@ -87,7 +87,7 @@ In dockerImage/app
 ```
 python app.py
 ```
-Then copy paste http://127.0.0.1:8050/ in a navigator
+Then copy paste http://127.0.0.1:8050/ in a browser
 
 ## Usage - Deployment with Heroku (free and easy)
 
