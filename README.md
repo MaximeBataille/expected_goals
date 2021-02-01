@@ -1,7 +1,8 @@
 # Expected Goals Generator
 
 This Dash application makes it possible to determine the expected goal of a shot according to several features. 
-[APP](https://expected-goals.herokuapp.com/)
+
+[Visit the app](https://expected-goals.herokuapp.com/)
 
 ## How is it built ?
 
@@ -30,7 +31,7 @@ The model built is based on XGBoost.
 
 ## Feature Impact
 
-Feature Impact is displayed thanks to the [Shap package](https://github.com/slundberg/shap)
+Feature Impact is displayed thanks to the [Shap package](https://github.com/slundberg/shap).
 
 ## Data
 
@@ -87,17 +88,17 @@ In dockerImage/app
 ```
 python app.py
 ```
-Then copy paste http://127.0.0.1:8050/ in a browser
+Then copy paste http://127.0.0.1:8050/ in a browser.
 
 ## Usage - Deployment with Heroku (free and easy)
 
 https://dash.plotly.com/deployment
 
-Take the same folder as dockerImage and replace Dockerfile by Procfile (/heroku_procfile/Procfile) to deploy the app with Heroku
+Take the same folder as dockerImage and replace Dockerfile by Procfile (/heroku_procfile/Procfile) to deploy the app with Heroku.
 
 ## Usage - To build a docker container and run the app with AWS, GCP, Azure
 
-1- Install Docker 
+1- Install Docker.
 https://docs.docker.com/get-docker/
 
 2- Modify some lines of code in app.py. The goal is to have access to our app from outside the container.
@@ -105,25 +106,27 @@ https://docs.docker.com/get-docker/
 app.run_server(host='0.0.0.0', port=8050, debug=True)
 ```
 
-4- Build a docker image from the directory dockerImage
+3- Build a docker image from the directory dockerImage.
 ```
 docker build -t <image_name> .
 ```
 
-5- Check the image is created
+4- Check the image is created.
 ```
 docker images
 ```
 
-4- Check that everything is working properly. The app is accessible at http://0.0.0.0:8050
+5- Check that everything is working properly. The app is accessible at http://0.0.0.0:8050 .
 ```
 docker run <image_name>
 ```
 
-5- Then, deploy your app with a cloud service
+6- Then, deploy your app with a cloud service.
 
 ## Links and Sources
 
-[To deploy a Dash app on Docker](https://towardsdatascience.com/how-to-use-docker-to-deploy-a-dashboard-app-on-aws-8df5fb322708)
-[Friends of Tracking channel](https://www.youtube.com/channel/UCUBFJYcag8j2rm_9HkrrA7w)
-[Statsbomb Open Data](https://github.com/statsbomb/open-data)
+[To deploy a Dash app on Docker](https://towardsdatascience.com/how-to-use-docker-to-deploy-a-dashboard-app-on-aws-8df5fb322708).
+
+[Friends of Tracking channel](https://www.youtube.com/channel/UCUBFJYcag8j2rm_9HkrrA7w).
+
+[Statsbomb Open Data](https://github.com/statsbomb/open-data).
