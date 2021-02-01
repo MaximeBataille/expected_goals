@@ -1,0 +1,17 @@
+dash==1.18.1
+dash-core-components==1.14.1
+dash-html-components==1.1.1
+dash-table==4.11.1
+mydcc==0.1.22
+plotly==4.9.0 
+pandas==1.1.1 
+pickleshare==0.7.5 
+json5==0.8.5
+jsonschema==3.0.2
+gunicorn==20.0.4
+scikit-learn==0.23.2
+matplotlib==3.3.4
+shap==0.38.1
+xgboost==0.90
+ipython-genutils==0.2.0
+ipython==7.16.1
